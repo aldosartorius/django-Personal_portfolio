@@ -1,0 +1,11 @@
+<h1>Aldo Sartorius blog</h1>
+
+{% for blog in blogs %}
+
+  <h2>{{ blog.title }}</h2>
+  <p>{{ blog.description }}</p>
+  <a href = "{{ blog.url }}">hola</a>
+
+
+
+{% endfor %}
